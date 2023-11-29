@@ -29,3 +29,17 @@ and 1s.
     
 1.11 Word processing programs, spreadsheet programs, email programs, web browsers,
     and game programs belong to what category of software?
+
+1.12 What amount of memory is enough to store a letter of the alphabet or a small
+number?
+
+1.13 What do you call a tiny “switch” that can be set to either on or off?
+
+1.14 In what numbering system are all numeric values written as sequences of 0s and 1s?
+
+1.15 What is the purpose of ASCII?
+
+1.16 What encoding scheme is extensive enough to represent the characters of many of
+the languages in the world?
+
+1.17 What do the terms “digital data” and “digital device” mean?
