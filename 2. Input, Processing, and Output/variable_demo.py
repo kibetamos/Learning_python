@@ -2,4 +2,4 @@
 
 room = 50
 
-print('Iam staying in room '), (room)
+print('I am staying in room '), (room)
