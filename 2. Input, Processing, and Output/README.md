@@ -1,4 +1,4 @@
-## Displaying Output with the print Function
+## Function
 
 A function is a piece of prewritten code that performs an operation. 
 Python has numerous built-in functions that perform various operations.
@@ -6,3 +6,6 @@ Perhaps the most fundamental built-in function is the print function, which disp
 
     print('Hello world')
 
+## Variables
+A variable is a name that represents a storage location in the computer’s
+memory.
