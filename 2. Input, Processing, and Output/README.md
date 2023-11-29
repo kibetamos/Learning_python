@@ -7,5 +7,4 @@ Perhaps the most fundamental built-in function is the print function, which disp
     print('Hello world')
 
 ## Variables
-A variable is a name that represents a storage location in the computer’s
-memory.
+A variable is a name that represents a storage location in the computer’s memory.
