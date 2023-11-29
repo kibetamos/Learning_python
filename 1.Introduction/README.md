@@ -1,3 +1,7 @@
+## Notes
+All data that is stored in a computer is converted to sequences of 0s
+and 1s.
+
 ## Checkpoint
 1.1 What is a program?
 
