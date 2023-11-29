@@ -5,3 +5,4 @@ Python has numerous built-in functions that perform various operations.
 Perhaps the most fundamental built-in function is the print function, which displays output on the screen. Here is an example of a statement that executes the print function
 
     print('Hello world')
+
