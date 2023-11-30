@@ -2,6 +2,7 @@
 #give a 20 % discount and show the sell price
 
 original_price = float(input('Input the original price of the product'))
+
 discount = original_price * 20/100
 
 
