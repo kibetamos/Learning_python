@@ -10,5 +10,5 @@ sci = input('What did you score in Science')
 
 average = math+eng+swa+sci/4
 
-Print('Your result  score is ', average)
+print('Your result  score is ', average)
 
