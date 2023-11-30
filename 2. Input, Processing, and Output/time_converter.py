@@ -1,11 +1,8 @@
-#Get a number of seconds from the user
+# Get a number of seconds from the user
 
 seconds = float(input('Enter number of seconds '))
 
-# Get a number of seconds from the user.
 # # Get the number of hours.
-
-
 hours = seconds // 360
 
 # Get the number of remaining minutes.
