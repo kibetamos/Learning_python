@@ -2,7 +2,7 @@
 
 seconds = float(input('Enter number of seconds '))
 
-# Get a number of seconds from the user.total_seconds = float(input('Enter a number of seconds: ')
+# Get a number of seconds from the user.
 # # Get the number of hours.
 
 
