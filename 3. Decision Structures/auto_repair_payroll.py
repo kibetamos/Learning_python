@@ -27,7 +27,6 @@ else:
 
 #Display the gross pay
 
-
 print(f'The gross pay is ${gross_pay:,.2f}. ')
 
 
