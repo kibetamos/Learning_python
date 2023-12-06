@@ -12,4 +12,23 @@ pay_rate = float(input("Enter hourly pay rate: "))
 #Lets see the gross pay
 
 if hours > base_hours:
-    
+    #gross pay with overtime
+
+    overtime_hrs = hours - base_hours
+
+    #Amount of overtime pay\
+    overtime_pay = overtime_hrs * pay_rate * over_time
+
+    #calculate the gross pay 
+    gross_pay = base_hours * pay_rate + overtime_hrs
+
+else:
+    gross_pay = hours * pay_rate
+
+#Display the gross pay
+
+
+print(f'The gross pay is ${gross_pay:,.2f}. ')
+
+
+
