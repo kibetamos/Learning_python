@@ -3,3 +3,7 @@
 min_salary = 3000
 min_years = 2
 
+#lets get annual salary
+salary = float(input("Enter your annual salary: "))
+
+#get number of years on current job
