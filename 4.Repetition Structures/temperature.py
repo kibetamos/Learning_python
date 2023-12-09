@@ -6,4 +6,5 @@
 max_temp = 102.5
 
 # Get the substance's temperature.
+
 temperature = float(input("Enter the substance's Celsius temperature: "))
