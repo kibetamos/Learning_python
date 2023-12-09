@@ -15,7 +15,6 @@ while keep_going == 'y':
     # Display the commission
     print(f'The commission is ${commission:,.2f}.')
 
-
     # See if the user wants to do another one.
     keep_going = input('Do you want to calculate another ' + 'commission (Enter y for yes): ')
 
