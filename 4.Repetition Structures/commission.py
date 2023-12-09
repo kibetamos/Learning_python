@@ -21,4 +21,4 @@ while keep_going == 'y':
 
 
 else:
-    print("Kongoi")
+    print("Kongoi for shopping with us ")
