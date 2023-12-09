@@ -19,6 +19,5 @@ while keep_going == 'y':
     # See if the user wants to do another one.
     keep_going = input('Do you want to calculate another ' + 'commission (Enter y for yes): ')
 
-
 else:
     print("Kongoi for shopping with us ")
