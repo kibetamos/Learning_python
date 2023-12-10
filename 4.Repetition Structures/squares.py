@@ -1,6 +1,4 @@
-# This program uses a loop to display a
-# table showing the numbers 1 through 10
-# and their squares.
+# This program uses a loop to display a table showing the numbers 1 through 10 and their squares.
 
 # Print the table headings.
 print('Number\tSquare')
