@@ -15,4 +15,4 @@ while keep_going == 'y':
     commission = sales * comm_rate
 
 # Display the commission.
-print(f'The commission is ${commission:,.2f}.')
+    print(f'The commission is ${commission:,.2f}.')
