@@ -16,3 +16,5 @@ while keep_going == 'y':
 
 # Display the commission.
     print(f'The commission is ${commission:,.2f}.')
+
+    
