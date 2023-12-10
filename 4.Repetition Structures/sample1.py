@@ -1,4 +1,7 @@
-count = 1
-while count <= 10:
+#Initializes a variable named count with the value 10.
+count = 10
+
+
+while count < 1:
+
     print('Hello World')
-    count += 1
