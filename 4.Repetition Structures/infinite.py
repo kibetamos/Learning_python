@@ -1,6 +1,4 @@
-#lets demonstrate an infinite loop
-
-#lets create a variable to control the loop
+#lets demonstrate an infinite loop lets create a variable to control the loop
 
 keep_going = 'y'
 
