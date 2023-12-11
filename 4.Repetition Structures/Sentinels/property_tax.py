@@ -6,3 +6,6 @@ tax_factor = 0.0065
 print('Enter the property lot number or enter 0 to end.')
 
 lot = int(input('Lot number: '))
+
+#continue processing as ong as the user does not enter 0
+
