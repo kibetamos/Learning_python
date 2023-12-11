@@ -1,2 +1,1 @@
-## Lets Learn python
-image.png
+### Lets Learn python
