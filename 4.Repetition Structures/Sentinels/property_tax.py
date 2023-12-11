@@ -9,3 +9,9 @@ lot = int(input('Lot number: '))
 
 #continue processing as ong as the user does not enter 0
 
+while lot !=0:
+    #get the value of the property
+    value = float(input('Enter the property value: '))
+
+
+    
