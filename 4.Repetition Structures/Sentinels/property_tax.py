@@ -2,3 +2,7 @@
 
 tax_factor = 0.0065
 
+# Get the first lot number.
+print('Enter the property lot number or enter 0 to end.')
+
+lot = int(input('Lot number: '))
