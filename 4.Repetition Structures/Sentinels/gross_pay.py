@@ -8,5 +8,6 @@ pay_rate = float(input('Enter the hourly pay rate: '))
  # Calculate the gross pay.
 gross_pay = hours * pay_rate
 
+
 # Display the gross pay.
 print(f'Gross pay: ${gross_pay:,.2f}')
