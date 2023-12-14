@@ -3,3 +3,12 @@
 mark_up = 2.5 # The markup percentage
 another = 'y' # Variable to control the loop
 
+# Process one or more items.
+while another == 'y' or another == 'Y':
+# Get the item's wholesale cost.
+    wholesale = float(input("Enter the item's wholesale cost: "))
+
+ # Validate the wholesale cost.
+    while wholesale < 0:
+        print('ERROR: the cost cannot be negative.')
+    wholesale = float(input('Enter the correct ' + 'wholesale cost: '))
