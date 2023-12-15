@@ -12,3 +12,5 @@ while another == 'y' or another == 'Y':
     while wholesale < 0:
         print('ERROR: the cost cannot be negative.')
     wholesale = float(input('Enter the correct ' + 'wholesale cost: '))
+    # Calculate the retail price.
+    retail = wholesale * MARK_UP
