@@ -14,3 +14,7 @@ while another == 'y' or another == 'Y':
     wholesale = float(input('Enter the correct ' + 'wholesale cost: '))
     # Calculate the retail price.
     retail = wholesale * mark_up
+
+
+    # Display the retail price.
+    print(f'Retail price: ${retail:,.2f}')
