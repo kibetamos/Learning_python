@@ -20,4 +20,5 @@ while another == 'y' or another == 'Y':
     print(f'Retail price: ${retail:,.2f}')
 
     # Do this again? 
+    
     another = input('Do you have another item? ' + '(Enter y for yes): ')
