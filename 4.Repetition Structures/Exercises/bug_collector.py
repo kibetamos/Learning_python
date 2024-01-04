@@ -6,6 +6,5 @@ for counter in range(max):
 
     total = total+ number
 
-
 #display sum of the numbers
 print(f'The total is {total}')
