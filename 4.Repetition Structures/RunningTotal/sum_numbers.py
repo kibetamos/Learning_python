@@ -18,5 +18,4 @@ for counter in range(max):
 
 
 #display sum of the numbers
-    
 print(f'The total is {total}')
