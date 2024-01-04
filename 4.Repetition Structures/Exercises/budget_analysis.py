@@ -1,3 +1,5 @@
+# 3. Budget Analysis
+
 '''
 Write a program that asks the user to enter the amount that he or she has budgeted for
 a month. A loop should then prompt the user to enter each of his or her expenses for the
