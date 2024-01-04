@@ -14,3 +14,6 @@ for student in range(num_students):
     print(f'Student number {student + 1}')
 
     print('-----------------')
+
+    for test_num in range(num_test_scores):
+        print(f'Test number {test_num + 1}', end='')
