@@ -15,7 +15,7 @@ print('This program calculates the total number of bugs collected ', end='')
 # print(f'{max} numbers you will enter.') 
 
 for counter in range(max):
-    number = int(input('Enter a number: '))
+    number = int(input('Enter number of bugs collected: '))
 
     total = total+ number
 
