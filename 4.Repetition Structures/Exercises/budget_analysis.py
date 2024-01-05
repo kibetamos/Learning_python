@@ -23,7 +23,6 @@ def budget_analysis():
         # Check if the user wants to finish entering expenses
         if expense == 0:
             break
-
         # Add the entered expense to the total
         total_expenses += expense
 
