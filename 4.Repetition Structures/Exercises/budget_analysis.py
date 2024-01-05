@@ -6,3 +6,5 @@ month and keep a running total. When the loop finishes, the program should displ
 amount that the user is over or under budget.
 '''
 
+amount = input("Enter the amount you have budgeted for a month ")
+
