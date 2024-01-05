@@ -10,11 +10,15 @@ def budget_analysis():
     total_expenses = 0
 
     budget = float(input("Enter the budgeted amount for the month: KES "))
+
     while True:
         try:
             expense = float(input("Enter an expense (enter 0 to finish): KES "))
+
         except ValueError:
+
             print("Invalid input. Please enter a valid number.")
+            
             continue
 
         # Check if the user wants to finish entering expenses
