@@ -6,5 +6,7 @@ month and keep a running total. When the loop finishes, the program should displ
 amount that the user is over or under budget.
 '''
 
+expenses = 0
+
 budget = float(input("Enter the budgeted amount for the month: $"))
 
