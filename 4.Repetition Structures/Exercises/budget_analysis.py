@@ -20,7 +20,6 @@ def budget_analysis():
             print("Invalid input. Please enter a valid number.")
             
             continue
-
         # Check if the user wants to finish entering expenses
         if expense == 0:
             break
