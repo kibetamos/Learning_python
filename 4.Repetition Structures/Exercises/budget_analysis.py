@@ -25,7 +25,6 @@ def budget_analysis():
             break
         # Add the entered expense to the total
         total_expenses += expense
-
     # Calculate the difference between the budget and total expenses
     difference = budget - total_expenses
 
