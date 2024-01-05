@@ -9,10 +9,10 @@ def budget_analysis():
 
     total_expenses = 0
 
-    budget = float(input("Enter the budgeted amount for the month: $"))
+    budget = float(input("Enter the budgeted amount for the month: KES "))
     while True:
         try:
-            expense = float(input("Enter an expense (enter 0 to finish): $"))
+            expense = float(input("Enter an expense (enter 0 to finish): KES "))
         except ValueError:
             print("Invalid input. Please enter a valid number.")
             continue
@@ -31,9 +31,9 @@ def budget_analysis():
     if difference == 0:
         print("You have spent exactly your budget. Well done!")
     elif difference > 0:
-        print(f"You are under budget by ${abs(difference):.2f}.")
+        print(f"You are under budget by KES {abs(difference):.2f}.")
     else:
-        print(f"You are over budget by ${abs(difference):.2f}.")
+        print(f"You are over budget by KES {abs(difference):.2f}.")
 
 # Run the budget_analysis function
 budget_analysis()
