@@ -5,8 +5,36 @@ a month. A loop should then prompt the user to enter each of his or her expenses
 month and keep a running total. When the loop finishes, the program should display the
 amount that the user is over or under budget.
 '''
+def budget_analysis():
 
-expenses = 0
+    total_expenses = 0
 
-budget = float(input("Enter the budgeted amount for the month: $"))
+    budget = float(input("Enter the budgeted amount for the month: $"))
+    while True:
+        try:
+            expense = float(input("Enter an expense (enter 0 to finish): $"))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            continue
+
+        # Check if the user wants to finish entering expenses
+        if expense == 0:
+            break
+
+        # Add the entered expense to the total
+        total_expenses += expense
+
+    # Calculate the difference between the budget and total expenses
+    difference = budget - total_expenses
+
+    # Display the budget analysis result
+    if difference == 0:
+        print("You have spent exactly your budget. Well done!")
+    elif difference > 0:
+        print(f"You are under budget by ${abs(difference):.2f}.")
+    else:
+        print(f"You are over budget by ${abs(difference):.2f}.")
+
+# Run the budget_analysis function
+budget_analysis()
 
