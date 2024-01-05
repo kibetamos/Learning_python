@@ -9,6 +9,7 @@ def budget_analysis():
 
     total_expenses = 0
 
+
     budget = float(input("Enter the budgeted amount for the month: KES "))
 
     while True:
