@@ -8,11 +8,10 @@ amount that the user is over or under budget.
 def budget_analysis():
 
     total_expenses = 0
-
-
     budget = float(input("Enter the budgeted amount for the month: KES "))
+
     while True:
-        
+
         try:
             expense = float(input("Enter an expense (enter 0 to finish): KES "))
 
