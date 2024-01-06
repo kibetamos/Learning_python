@@ -14,4 +14,9 @@
 
 5.7 Introduction to Value-Returning
 
-Functions: Generating Random Numbers
+5.8 Writing Your Own Value-Returning
+Functions
+5.9 The math Module
+5.10 Storing Functions in Modules
+5.11 Turtle Graphics: Modularizing Code
+with Functions
