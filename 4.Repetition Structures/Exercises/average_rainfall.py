@@ -8,3 +8,7 @@ After all iterations, the program should display the number of months, the total
 rainfall, and the average rainfall per month for the entire period.
 
 '''
+def average_rainfall():
+    #lets get the number of years from the user 
+    num_year = int(input("Enter the number of years"))
+    #lets  keep track of months and total rainfall
