@@ -1,3 +1,5 @@
+## Functions
+
 5.1 Introduction to Functions
 
 5.2 Defining and Calling a Void Function
