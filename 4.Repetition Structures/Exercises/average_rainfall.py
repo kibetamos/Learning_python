@@ -6,4 +6,5 @@ iterate once for each year. The inner loop will iterate twelve times, once for e
 Each iteration of the inner loop will ask the user for the inches of rainfall for that month.
 After all iterations, the program should display the number of months, the total inches of
 rainfall, and the average rainfall per month for the entire period.
+
 '''
