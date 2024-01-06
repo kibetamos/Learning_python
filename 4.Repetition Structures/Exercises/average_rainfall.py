@@ -12,3 +12,7 @@ def average_rainfall():
     #lets get the number of years from the user 
     num_year = int(input("Enter the number of years"))
     #lets  keep track of months and total rainfall
+    total_rainfall = 0
+    total_months=0
+
+    
