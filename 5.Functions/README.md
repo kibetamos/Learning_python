@@ -1,6 +1,7 @@
 ## Functions
 
 5.1 Introduction to Functions
+
     A function is a group of statements that exist within a program for the
     purpose of performing a specific task.
 
