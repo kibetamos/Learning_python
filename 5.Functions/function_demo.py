@@ -4,5 +4,5 @@
 def message():
     print('Iam Mark')
     print('Computer Tech')
-
+# Call the message function
 message()
