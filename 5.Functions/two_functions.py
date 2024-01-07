@@ -1,7 +1,7 @@
 #lets see how two fnctions show out 
 # define the main function.
 def main():
-    print('I have a message for you ')
+    print('I have a message for you')
     message()
     print('Goodbye')
 
