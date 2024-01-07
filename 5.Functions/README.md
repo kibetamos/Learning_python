@@ -20,5 +20,4 @@
 
 5.10 Storing Functions in Modules
 
-5.11 Turtle Graphics: Modularizing Code
-with Functions
+5.11 Turtle Graphics: Modularizing Code with Functions
