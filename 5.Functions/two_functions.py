@@ -7,7 +7,7 @@ def main():
 
 # Next we define the message function.
 def message():
-    print('I am Kibety,')
+    print('I am Kibet,')
     print('King of Code.')
 
  # Call the main function.
