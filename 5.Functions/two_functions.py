@@ -5,7 +5,6 @@ def main():
     message()
     print('Goodbye')
 
-
 # Next we define the message function.
 def message():
     print('I am Kibet,')
