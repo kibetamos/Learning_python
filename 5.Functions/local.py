@@ -4,7 +4,7 @@ def main():
 #Definition of get name function
     
 def get_name():
-    name = input('Enter your name d')
+    name = input('Enter your name ')
     print(f'Hello {name}')
 
 
