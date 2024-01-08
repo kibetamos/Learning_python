@@ -8,8 +8,7 @@ def main():
 
 #Introduction screen
 def intro():
-    print('This program converts measurements')
-    print('in cups to fluid ounces. For your')
+    print('This program converts measurements in cups to fluid ounces. For your')
     print('reference the formula is:')
     print(' 1 cup = 8 fluid ounces')
     print()
