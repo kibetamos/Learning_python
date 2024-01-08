@@ -3,13 +3,13 @@
 def main():
     print('I have a message for you')
     message()
+    message2()
     print('Goodbye')
 
 # Next we define the message function.
 def message():
     print('I am Kibet,')
     print('King of Code.')
-
 
 #lets add another functionm
 def message2():
