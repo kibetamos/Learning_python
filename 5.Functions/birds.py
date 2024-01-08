@@ -9,7 +9,7 @@ def main():
     
 def texas():
     birds = 5000
-    print(f'texas has {birds} birds')
+    print(f'Texas has {birds} birds')
 
 
 #lets define the california function
