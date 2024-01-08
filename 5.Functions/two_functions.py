@@ -11,4 +11,4 @@ def message():
     print('King of Code.')
 
  # Call the main function.
-main()
+message()
