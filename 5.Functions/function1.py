@@ -7,6 +7,9 @@ def sum():
 
     sum = a + b
 
+    answer(sum)
+
+def answer(sum):
     print ('The sum is,', sum)
 
 sum()
