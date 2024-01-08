@@ -5,11 +5,10 @@ def sum():
 
     b = int(input('Enter b '))
 
+    answer(a,b,sum)
+
+def answer(a,b,sum):
     sum = a + b
-
-    answer(sum)
-
-def answer(sum):
     print ('The sum is,', sum)
 
 sum()
