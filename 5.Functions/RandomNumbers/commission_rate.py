@@ -36,7 +36,9 @@ def get_advanced_pay():
 
     return advanced
 
-
+#The determine_comm_rate function accepts the
+ # amount of sales as an argument and returns the
+ # applicable commission rate.
 def determine_comm_rate(sale):
     pass
 
