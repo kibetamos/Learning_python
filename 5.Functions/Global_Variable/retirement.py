@@ -19,5 +19,4 @@ def bonus_contrib(bonus):
 
     print(f'Contribution for bonuses: {contrib}')
 
-
 main()
