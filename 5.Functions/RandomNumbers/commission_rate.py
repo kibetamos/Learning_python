@@ -54,4 +54,4 @@ def determine_comm_rate(sales):
 
     return rate
 
-
+main()
