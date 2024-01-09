@@ -3,14 +3,15 @@
 
 import math 
 def main():
-    a = int(input('Enter a'))
-    b = int(input('Enter b'))
+    # Get the length of the triangle's two sides.
+    a = float(input('Enter the length of side A: '))
+    b = float(input('Enter the length of side B: '))
     # 
-    
+    # Calculate the length of the hypotenuse
     c = math.hypot(a,b)
 
 
-    print(c)
+    print(f'The length of the hypotenuse is {c}.')
 
 main()
 
