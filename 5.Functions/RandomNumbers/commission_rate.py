@@ -15,10 +15,28 @@ def main():
 #Display the amount of pay
     print(f'The pay is ${pay:,.2f}.')
 
+#Determine if the pay is negative 
+    
+    if pay < 0:
+        print('The Salesperson must reimurse the company')
+
+# The get_sales function gets a salesperson'sonthly sales
 def get_sales():
-    pass
+
+    monthly_sales = float(input('Enter the monthly sales: '))
+    return monthly_sales
+
 
 def get_advanced_pay():
-    pass
+    # Get the amount of advanced pay.
+    print('Enter the amount of advanced pay, or')
+    print('enter 0 if no advanced pay was given.')
+    
+    advanced = float(input('Advanced pay: '))
+
+    return advanced
+
+
 def determine_comm_rate(sale):
     pass
+
