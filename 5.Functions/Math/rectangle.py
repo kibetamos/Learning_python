@@ -29,3 +29,12 @@ def area(width,length):
 
 def perimeter(width, lenght):
     return 2 * (width + lenght)
+
+def main():
+    width = float(input("Enter the rectangle's width: "))
+    length = float(input("Enter the rectangle's length: "))
+    print('The area is', area(width, length))
+    print('The perimeter is', perimeter(width, length))
+
+
+main()
