@@ -14,5 +14,18 @@ quit_choice = 5
 def main():
     #controls the loop and holds users menu ChildProcessError
     choice = 0
-    
+
+    while choice != quit_choice:
+        #display menu'
+        display_menu()
+
+        #get the users choice
+
+        choice =  int(input('Enter your choice '))
+
+        #basing on the choice selected lets dislay the menu
+        if choice == circumference_choice:
+            radius = float(input("Enter the circle's radius : "))
+            print('The circumference is ', circle.circumference(radius))
+
 
