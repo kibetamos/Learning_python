@@ -28,4 +28,16 @@ def main():
             radius = float(input("Enter the circle's radius : "))
             print('The circumference is ', circle.circumference(radius))
 
+        elif choice == area_circle:
+            radius = float(input('Enter circles radius :'))
+
+            print('The area is ', circle.area(radius))
+        
+        elif choice == area_rectangle_choice:
+            width = float(input("Enter the rectangle's width: "))
+            length = float(input("Enter the rectangle's length: "))
+            print('The area is', rectangle.area(width, length))
+
+            
+
 
