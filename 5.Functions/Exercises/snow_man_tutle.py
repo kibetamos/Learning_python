@@ -16,12 +16,12 @@ def draw_snowman():
     draw_circle(0, -10, 20, 'white')
 
     # Draw snowman eyes
-    draw_circle(-10, 10, 2, 'black')
-    draw_circle(10, 10, 2, 'black')
+    draw_circle(-10, 0, 2, 'black')
+    draw_circle(10, 0, 2, 'black')
 
     # Draw snowman nose
     turtle.penup()
-    turtle.goto(0, 5)
+    turtle.goto(0, -5)
     turtle.pendown()
     turtle.color('orange')
     turtle.begin_fill()
