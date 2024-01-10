@@ -16,23 +16,24 @@ def main():
     choice = 0
 
     while choice != quit_choice:
-        
+
         #display menu'
         display_menu()
 
         #get the users choice
         choice =  int(input('Enter your choice '))
 
-        #basing on the choice selected lets dislay the menu
-        if choice == circumference_choice:
-            radius = float(input("Enter the circle's radius : "))
-            print('The circumference is ', circle.circumference(radius))
-
-        elif choice == area_circle:
+        if choice == area_circle:
             radius = float(input('Enter circles radius :'))
 
             print('The area is ', circle.area(radius))
         
+        #basing on the choice selected lets dislay the menu
+        elif choice == circumference_choice:
+            radius = float(input("Enter the circle's radius : "))
+            print('The circumference is ', circle.circumference(radius))
+
+
         elif choice == area_rectangle_choice:
             width = float(input("Enter the rectangle's width: "))
             length = float(input("Enter the rectangle's length: "))
@@ -56,7 +57,6 @@ def main():
 
 # The display_menu function displays a menu.
 def display_menu():
-    
     
     print(' MENU')
     print('1) Area of a circle')

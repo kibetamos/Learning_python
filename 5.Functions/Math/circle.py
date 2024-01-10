@@ -1,14 +1,20 @@
 import math
-def main():
-    radius = float(input('Enter the radius'))
+# def main():
+#     radius = float(input('Enter the radius'))
 
-    area = calculate_area(radius)
+#     area = calculate_area(radius)
 
-    print(area)
+#     print(area)
 
-def calculate_area(radius):
+# def calculate_area(radius):
     
-    area = math.pi *radius**2
-    return area
+#     area = math.pi *radius**2
+#     return area
 
-main()
+# main()
+def area(radius):
+    return math.pi *radius**2
+
+
+def circumference(radius):
+    return 2*math.pi*radius
