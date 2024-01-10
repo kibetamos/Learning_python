@@ -1,6 +1,6 @@
 import math
 def main():
-    radius = int(input('Enter the radius'))
+    radius = float(input('Enter the radius'))
 
     area = calculate_area(radius)
 

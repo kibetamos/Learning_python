@@ -1,8 +1,9 @@
 # The rectangle module has functions that perform # calculations related to rectangles.
 
 def main():
-    length = int(input('Enter length '))
-    width = int(input('Enter width '))
+
+    width = float(input("Enter the rectangle's width: "))
+    length = float(input("Enter the rectangle's length: "))
 
     area = get_area(length,width)
     perimeter = get_perimeter(length,width)
@@ -14,6 +15,8 @@ def get_area(length,width):
 
     area = length* width
     return area
+
+
 def get_perimeter(length, width):
     perimeter = 2 * (width + length)
 

@@ -16,11 +16,11 @@ def main():
     choice = 0
 
     while choice != quit_choice:
+        
         #display menu'
         display_menu()
 
         #get the users choice
-
         choice =  int(input('Enter your choice '))
 
         #basing on the choice selected lets dislay the menu
@@ -54,3 +54,16 @@ def main():
             print('Error: invalid selection.')
 
 
+# The display_menu function displays a menu.
+def display_menu():
+    
+    
+    print(' MENU')
+    print('1) Area of a circle')
+    print('2) Circumference of a circle')
+    print('3) Area of a rectangle')
+    print('4) Perimeter of a rectangle')
+    print('5) Quit')
+
+ # Call the main function.
+main()
