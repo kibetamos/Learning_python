@@ -1,0 +1,14 @@
+Coffee A
+10.5
+
+Coffee B
+5.2
+
+Decaf Coffee
+8.0
+
+Espresso
+15.3
+
+Iced Coffee
+12.7

@@ -21,7 +21,7 @@ def main():
     while descr != '':
         #read the quantity field
 
-        qty = float(coffee.readline())
+        qty = float(coffee_file.readline())
 
         #strip the \n from the descriotion
 
