@@ -1,14 +1,8 @@
-Coffee A
-10.5
-
-Coffee B
-5.2
-
-Decaf Coffee
-8.0
-
-Espresso
-15.3
-
-Iced Coffee
-12.7
+wewe
+23 
+erty
+45 
+yui
+67 
+opa
+89 

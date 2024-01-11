@@ -31,5 +31,5 @@ def main():
     print('Data appended to coffee.txt.')
 
 
-if '__name__' == '_main__':
+if __name__ == '__main__':
     main()
