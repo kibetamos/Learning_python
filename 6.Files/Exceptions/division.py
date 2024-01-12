@@ -10,5 +10,6 @@ def main():
 
     print(divide)
 
+
 if __name__ == '__main__':
     main()
