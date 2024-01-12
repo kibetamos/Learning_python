@@ -1,0 +1,3 @@
+An exception is an error that occurs while a program is running, causing
+the program to abruptly halt. You can use the try/except statement to
+gracefully handle exceptions.
