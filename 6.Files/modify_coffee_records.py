@@ -1,4 +1,5 @@
 #Lets enable a user to edit/modify quantity
+import os
 
 def main():
     #create a bool to use a flag found
@@ -42,6 +43,27 @@ def main():
             #write the original record tot te temp file
             temp_file.write(f'{descr}\n')
             temp_file.write(f'{qty}\n')
+        #read the next description
+        descr = coffee_file.readline()
 
-            
+    coffee_file.close()
+    temp_file.close()
+
+    #Delete the original coffee.txt file
+
+    os.remove('coffee.txt')
+
+    os.rename('temp.txt', 'coffee.txt')
+
+    if found:
+        print('The file has been updated')
+
+    else:
+        print('That item was not found in the file')
+
+#call the main fuinction
+
+if __name__ == '__main__':
+    main()
+
 
