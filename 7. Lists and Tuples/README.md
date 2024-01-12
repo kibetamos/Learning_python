@@ -3,6 +3,7 @@
 7.2 Introduction to Lists
 
 7.3 List Slicing
+    Lists Are Mutable
 
 7.4 Finding Items in Lists with the in Operator
 
