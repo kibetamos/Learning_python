@@ -8,7 +8,7 @@ def main():
 
     divide = a/b
 
-    print(divide)
+    print(f'{a} divided by {b} is {divide}')
 
 
 if __name__ == '__main__':
