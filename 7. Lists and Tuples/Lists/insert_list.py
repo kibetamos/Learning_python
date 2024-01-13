@@ -2,6 +2,7 @@
 def main():
     #creare a list of names 
     students = ['mark', 'Amos', 'Kibet']
+    print('The students are ',students)
 
     new_name = input('Whts the new name you want to add ')
 
