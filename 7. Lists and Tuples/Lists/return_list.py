@@ -21,4 +21,8 @@ def get_values():
 
         again = input('y = yes, anything else = no: ')
         print()
-        
+
+    return values
+
+if __name__ == '__maina__':
+    main()
