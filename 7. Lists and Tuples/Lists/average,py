@@ -1,0 +1,14 @@
+def main():
+    #list of numbers
+    scores = [29,30,40,50]
+
+    total = 0
+
+    for value in scores:
+        total += value
+    average = total/ len(scores)
+
+    print(average)
+
+if __name__ == '__main__':
+    main()
