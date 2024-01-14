@@ -3,10 +3,11 @@ def main():
 
     # Display the values in the list.
     print('The numbers in the list are:')
+    
     print(numbers)
 
 def get_values():
-    
+
     values = []
 
     #we have to create a loop and control it 
