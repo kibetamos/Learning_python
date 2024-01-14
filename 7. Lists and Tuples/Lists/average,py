@@ -4,11 +4,17 @@ def main():
 
     total = 0
 
+
+# Calculate the total of the list elements.
     for value in scores:
         total += value
+
+    # Calculate the average of the elements
     average = total/ len(scores)
 
     print(f'The average of the elements is {average}.')
 
+
+# Call the main function.
 if __name__ == '__main__':
     main()
