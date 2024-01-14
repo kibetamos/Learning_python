@@ -6,6 +6,7 @@ def main():
     print(numbers)
 
 def get_values():
+    
     values = []
 
     #we have to create a loop and control it 
