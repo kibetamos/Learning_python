@@ -8,7 +8,7 @@ def main():
         total += value
     average = total/ len(scores)
 
-    print(average)
+    print(f'The average of the elements is {average}.')
 
 if __name__ == '__main__':
     main()
