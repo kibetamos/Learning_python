@@ -8,9 +8,10 @@ def main():
     # Calculate the total of the list elements.
     for value in books:
         total += value
-        
+
 # Display the total of the list elements.
     print(f'The total of the elements is {total}.')
 
+#call main function 
 if __name__ == '__main__':
     main()
