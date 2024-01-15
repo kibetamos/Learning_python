@@ -8,7 +8,7 @@ def main():
 
     #write list to the file
     for item in numbers:
-        outfile.rite(str(item) + '\n')
+        outfile.write(str(item) + '\n')
 
     outfile.close()
 
