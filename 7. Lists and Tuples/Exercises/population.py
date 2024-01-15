@@ -10,6 +10,19 @@ following data:
 • The year with the smallest increase in population during the time period
 
 '''
+
+def main():
+    file_path = 'Chapter 07/USPopulation.txt'
+    population_data = read_population_data(file_path)
+
+    average_change = calculate_average_annual_change(population_data)
+    greatest_increase_year = find_greatest_increase(population_data)
+    smallest_increase_year = find_smallest_increase(population_data)
+
+    print(f'Average Annual Change in Population: {average_change:.2f} thousand')
+    print(f'Year with Greatest Increase: {greatest_increase_year}')
+    print(f'Year with Smallest Increase: {smallest_increase_year}')
+
 def read_population_data(file_path):
     with open(file_path, 'r') as file:
         population_data = [int(line.strip()) for line in file]
@@ -33,17 +46,7 @@ def find_smallest_increase(population_data):
     min_increase_index = population_data.index(min_increase + population_data[0])
     return min_increase_index + 1951
 
-def main():
-    file_path = 'Chapter 07/USPopulation.txt'
-    population_data = read_population_data(file_path)
 
-    average_change = calculate_average_annual_change(population_data)
-    greatest_increase_year = find_greatest_increase(population_data)
-    smallest_increase_year = find_smallest_increase(population_data)
-
-    print(f'Average Annual Change in Population: {average_change:.2f} thousand')
-    print(f'Year with Greatest Increase: {greatest_increase_year}')
-    print(f'Year with Smallest Increase: {smallest_increase_year}')
 
 if __name__ == "__main__":
     main()
