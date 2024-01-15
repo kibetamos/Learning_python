@@ -11,6 +11,15 @@ def main():
 
     plt.plot(x_coords,y_coords)
 
+#add a title
+    plt.title('Sample data')
+
+    #add labels
+    plt.xlabel('This is the X axis')
+    plt.ylabel('This is the Y axis')
+
+
+    
     #display
     plt.show()
 
