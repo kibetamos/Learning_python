@@ -1,5 +1,2 @@
 
 ## Lets Learn python
-
-
-
