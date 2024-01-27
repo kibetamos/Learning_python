@@ -5,12 +5,9 @@ We are going to cover python lessonnas shown below:
 Add README chapter 1
 	
 	2. Input, Processing, and Output
+	3. Decision Structures
 	
-	
-3. Decision Structures
-	
-added Decision structure - loan qualifier
-	
+
 4.Repetition Structures
 	
 Added average analysis assignemnt
