@@ -10,9 +10,6 @@ Add README chapter 1
 	5.Functions
  	6.Files
 	7. Lists and Tuples
-	
-	
-8. Strings
-
+	8. Strings
 
 ### Here are python classes 
