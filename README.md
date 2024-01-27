@@ -9,12 +9,8 @@ Add README chapter 1
 	4.Repetition Structures
 	5.Functions
  	6.Files
+	7. Lists and Tuples
 	
-Added Exceptions- Gross pay
-	
-7. Lists and Tuples
-	
-Added Exercises
 	
 8. Strings
 
