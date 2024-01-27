@@ -4,9 +4,8 @@ We are going to cover python lessonnas shown below:
 	
 Add README chapter 1
 	
-2. Input, Processing, and Output
+	2. Input, Processing, and Output
 	
-add circle in turtle
 	
 3. Decision Structures
 	
