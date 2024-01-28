@@ -18,4 +18,5 @@ Trying to access outer_var outside the function,
 will raise a NameError
 print(outer_var)
 '''
+
 print(outer_var)
