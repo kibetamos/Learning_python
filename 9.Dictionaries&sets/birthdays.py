@@ -73,10 +73,9 @@ def add(birthdays):
     # If the name does not exist, add it.
     if name not in birthdays:
         birthdays[name] = bday
+        print(f'Entry added: {name} - {bday}')
     else:
         print('That entry already exists.')
-
-
 
 def delete(birthdays):
     #get name to looup
