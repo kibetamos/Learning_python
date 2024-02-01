@@ -39,4 +39,29 @@ def create_deck():
         }
 # Return the deck.
     return deck
+def deal_cards(deck, number):
+    # The deal_cards function deals a specified number of cards
+    hand_value = 0
+    #makesure the number of cards to deal is not more than cards i n the deck
+
+    if number > len(deck):
+        number = len(deck)
+
+    #Deal the cards and accumulate the their values
+        
+    for count in range(number):
+        card= random.choice(list(deck))
+        print(card)
+        hand_value += deck[card]
+
+# Display the value of the hand.
+    print(f'Value of this hand: {hand_value}')
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+
     
