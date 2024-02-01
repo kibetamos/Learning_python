@@ -48,11 +48,9 @@ def get_menu_choice():
 
     choice = int(input('Enter your choice: '))
 
-
     # Validate the choice.
     while choice < look_up or choice > quit:
         choice = int(input('Enter a valid choice: '))
-
 
     # return the users choice 
 
