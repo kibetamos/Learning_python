@@ -37,4 +37,6 @@ def save_data(file):
     pickle.dump(person, file)
 
     
-        
+# Call the main function.
+if __name__ == '_ _main_ _':
+    main()      
