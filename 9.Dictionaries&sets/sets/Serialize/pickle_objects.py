@@ -24,11 +24,17 @@ def main():
     #
 
 def save_data(file):
-    pass
+    #create an empty dictionary
+    person = {}
+    #get data and store
+
+    person['name'] = input('Name: ')
+    person['age'] = int(input('Age: '))
+    person['weight'] = float(input('Weight: '))
 
     
     #create an empty dictionary
-     
+    pickle.dump(person, file)
 
     
         
