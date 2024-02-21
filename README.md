@@ -8,7 +8,7 @@ Add README chapter 1
 3. Decision Structures
 4.Repetition Structures
 5.Functions
- 	6.Files
+ 6.Files
 	7. Lists and Tuples
 	8. Strings
 
