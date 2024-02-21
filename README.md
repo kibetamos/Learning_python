@@ -9,7 +9,7 @@ Add README chapter 1
 	4.Repetition Structures
 	5.Functions
 	6.Files
-7. Lists and Tuples
+	7. Lists and Tuples
 8. Strings
 
 ### Here are python classes 
