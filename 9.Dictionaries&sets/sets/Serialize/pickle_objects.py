@@ -10,3 +10,15 @@ def main():
     output_file = open('info.dat', 'wb')
 
     #get data until a user wants to stop
+
+    while again.lower() == 'y':
+#Get data about a person and save it.
+        save_data(output_file)
+
+        #lets check if the user wants more data
+        again = input('Enter more data ? (y/n): ')
+
+    output_file.close()
+
+    
+        
