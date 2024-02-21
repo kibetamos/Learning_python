@@ -19,6 +19,13 @@ def main():
         again = input('Enter more data ? (y/n): ')
 
     output_file.close()
+#save function gets data about a person
+    # stores it in a dictionary
+    #
+
+def save_data(file):
+    #create an empty dictionary
+     
 
     
         
