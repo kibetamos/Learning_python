@@ -19,4 +19,4 @@ Add README chapter 1
  
 	8. Strings
 
-### Here are python classes 
+### Here are python classes:
