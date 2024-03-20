@@ -8,7 +8,6 @@ Add README chapter 1
 	2. Input, Processing, and Output
  
 	3. Decision Structures
- 
 	4.Repetition Structures
  
 	5.Functions
