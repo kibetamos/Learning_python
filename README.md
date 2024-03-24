@@ -12,7 +12,7 @@ Add README chapter 1
  
 3. Decision Structures
  
-	4.Repetition Structures
+4.Repetition Structures
  
 	5.Functions
  
