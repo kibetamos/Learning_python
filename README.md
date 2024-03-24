@@ -14,7 +14,7 @@ Add README chapter 1
  
 4.Repetition Structures
  
-	5.Functions
+5.Functions
  
 	6.Files
  
