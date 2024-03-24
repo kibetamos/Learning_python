@@ -18,7 +18,7 @@ Add README chapter 1
  
 6.Files
  
-	7. Lists and Tuples
+7. Lists and Tuples
  
 	8. Strings
 
