@@ -20,7 +20,7 @@ Add README chapter 1
  
 7. Lists and Tuples
  
-	8. Strings
+8. Strings
 
 
 
