@@ -20,4 +20,5 @@ We are going to cover python lessonnas shown below:
  
 8. Strings
 
+
 ### Here are python classes:
