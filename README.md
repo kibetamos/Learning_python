@@ -16,5 +16,4 @@ We are going to cover python lessonnas shown below:
  
 8. Strings
 9. 
-
 ### Here are python classes:
