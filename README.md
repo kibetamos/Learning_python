@@ -1,5 +1,3 @@
-
-
 ## Lets Learn Python
 
 We are going to cover python lessonnas shown below:
