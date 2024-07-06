@@ -6,10 +6,9 @@ We are going to cover python lessonnas shown below:
 	Add README chapter 1
  
 2. Input, Processing, and Output
-3. 
+
  
 4. Decision Structures'
-5. 
  
 4.Repetition Structures
 
