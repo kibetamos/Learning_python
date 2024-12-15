@@ -18,6 +18,8 @@ We are going to cover python lessonnas shown below:
  
 7. Lists and Tuples
  
+
+
 8. Strings
    
 ### Here are python classes:
