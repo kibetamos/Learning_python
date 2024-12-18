@@ -8,7 +8,6 @@ We are going to cover python lessonnas shown below:
 	Add README chapter 1
  
 2. Input, Processing, and Output
-
  
 4. Decision Structures
 
