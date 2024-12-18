@@ -13,6 +13,8 @@ We are going to cover python lessonnas shown below:
  
 4. Decision Structures
  
+
+
 4.Repetition Structures
 
 5.Functions
