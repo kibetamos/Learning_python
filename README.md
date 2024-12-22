@@ -13,6 +13,7 @@ We are going to cover python lessonnas shown below:
 4.Repetition Structures
 
 5.Functions
+
 6.Files
  
 7. Lists and Tuples
