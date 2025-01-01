@@ -17,6 +17,8 @@ We are going to cover python lessonnas shown below:
 
 6.Files
 
+
+
 7. Lists and Tuples
 
 8. Strings
