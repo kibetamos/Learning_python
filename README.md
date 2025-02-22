@@ -6,6 +6,8 @@ We are going to cover python lessonnas shown below:
   1.Introduction
 
 
+
+
 	Add README chapter 1
  
 2. Input, Processing, and Output
